@@ -38,18 +38,18 @@
 // k32 = C, k33 = SPACE
 // k34 = temporarily switches to DOOM_ALT layer when held down
 #define MIRYOKU_LAYER_DOOM \
-&kp TAB,           &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               XXX,               &kp Q,             &kp W,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &kp C,             &kp SPACE,         &lt U_DOOM_ALT 0,  XXX,               XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
+&kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            XXX,               XXX,               XXX,               XXX,               XXX,                \
+XXX,               &kp Q,             &kp W,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
+&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,                \
+U_NP,              U_NP,              &kp C,             &kp SPACE,         &lt U_DOOM_ALT 0,  XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Define DOOM alternate weapons layer (activated when k34 is held down)
 // Changes the number keys 1-5 to 6-0, keeps all other keys the same
 #define MIRYOKU_LAYER_DOOM_ALT \
-&kp TAB,           &kp N6,            &kp N7,            &kp N8,            &kp N9,            &kp N0,            XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               XXX,               &kp Q,             &kp W,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &kp C,             &kp SPACE,         &trans,            XXX,               XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
+&kp N6,            &kp N7,            &kp N8,            &kp N9,            &kp N0,            XXX,               XXX,               XXX,               XXX,               XXX,                \
+XXX,               &kp Q,             &kp W,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
+&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,                \
+U_NP,              U_NP,              &kp C,             &kp SPACE,         &none,             XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
 // in the very top right position (the XXX position)
@@ -72,10 +72,10 @@ XXX  K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  
      K20, K21, K22, K23, K24,                          K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                          K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04                           K05  K06  K07  K08  K09  &u_to_U_BASE  \
-XXX  K10  K11  K12  K13  K14                           K15  K16  K17  K18  K19  XXX  \
-XXX  K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX  \
-               XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
+&kp TAB   K00  K01  K02  K03  K04                           K05  K06  K07  K08  K09  &u_to_U_BASE  \
+XXX       K10  K11  K12  K13  K14                           K15  K16  K17  K18  K19  XXX  \
+XXX       K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX  \
+                    XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
 
 #define MIRYOKU_LAYERMAPPING_DOOM_ALT MIRYOKU_MAPPING
 
