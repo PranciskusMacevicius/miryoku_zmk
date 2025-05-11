@@ -8,10 +8,7 @@
 #define MIRYOKU_CLIPBOARD_WIN
 
 // Set thumb key layout
-#define MIRYOKU_MAPPING_EXTENDED_THUMBS
-
-#define CONFIG_ZMK_MOUSE y
-#define CONFIG_BT_CTLR_TX_PWR_PLUS_8 y	
+#define MIRYOKU_MAPPING_EXTENDED_THUMBS	
 
 // Define helper for unused keys
 #define XXX &none
@@ -84,9 +81,9 @@ MIRYOKU_X(DOOM_ALT, "Doom Alt")
 // Uncomment if you want to flip hands (left becomes right, right becomes left)
 // #define MIRYOKU_LAYERS_FLIP
 
-// Kconfig options
-#define CONFIG_ZMK_SLEEP y                     // Enable deep sleep support
-#define CONFIG_ZMK_IDLE_SLEEP_TIMEOUT 900000   // Sleep after 15 minutes of inactivity (in ms)
-#define CONFIG_BT_CTLR_TX_PWR_PLUS_8 y         // Increase Bluetooth transmit power to maximum
+// // Kconfig options
+// #define CONFIG_ZMK_SLEEP y                     // Enable deep sleep support
+// #define CONFIG_ZMK_IDLE_SLEEP_TIMEOUT 900000   // Sleep after 15 minutes of inactivity (in ms)
+// #define CONFIG_BT_CTLR_TX_PWR_PLUS_8 y         // Increase Bluetooth transmit power to maximum
 
 // Note: Do not try to set the shield here as that's handled at build time
