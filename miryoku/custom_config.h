@@ -10,8 +10,13 @@
 // // Set thumb key layout
 // #define MIRYOKU_MAPPING_EXTENDED_THUMBS	
 
+#define MIRYOKU_ALPHAS_QWERTY
+#define MIRYOKU_CLIPBOARD_WIN
+
 // Define helper for unused keys
 #define XXX &none
+
+
 
 // Define layer indices
 #define U_BASE        0
