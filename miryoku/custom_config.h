@@ -28,8 +28,8 @@
 #define U_DOOM_ALT   11
 
 // Define custom behavior for switching to DOOM layer
-#define u_to_U_DOOM &to U_DOOM
-#define u_to_U_BASE &to U_BASE
+// #define u_to_U_DOOM &to U_DOOM
+// #define u_to_U_BASE &to U_BASE
 
 // Define custom DOOM gaming layer with ONLY the keys mentioned:
 // k00-k04 = 1-5, with TAB to the left of k00
