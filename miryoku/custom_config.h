@@ -45,7 +45,7 @@
 &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            XXX,               XXX,               XXX,               XXX,               XXX,                \
 XXX,               &kp Q,             &kp W,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &kp C,             &kp SPACE,         &lt U_DOOM_ALT 0,  XXX,               XXX,               XXX,               U_NP,              U_NP
+U_NP,              U_NP,              &kp C,             &kp SPACE,         &mo U_DOOM_ALT 0,  XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Define DOOM alternate weapons layer (activated when k34 is held down)
 // Changes the number keys 1-5 to 6-0, keeps all other keys the same
