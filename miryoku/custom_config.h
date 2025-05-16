@@ -68,7 +68,7 @@ U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENE
 // Define DOOM alternate weapons layer (activated when k34 is held down)
 // Changes the number keys 1-5 to 6-0, keeps all other keys the same
 #define MIRYOKU_LAYER_GENERALS_LETTERS_ALT \
-&kp Y,             &kp I,             &kp O,             &kp P,           XXX,               XXX,               XXX,               XXX,               XXX                XXX,                \
+&kp Y,             &kp I,             &kp O,             &kp P,           XXX,               XXX,               XXX,               XXX,               XXX,                XXX,                \
 &kp H,             &kp J,             &kp K,             &kp L,           XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                 \
 &kp N,             &kp M,             XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                 \
 U_NP,              U_NP,              XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
