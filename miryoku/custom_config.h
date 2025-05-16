@@ -60,23 +60,23 @@ XXX,               &kp Q,             &kp W,             XXX,               XXX,
 U_NP,              U_NP,              &kp C,             &kp SPACE,         &none,             XXX,               XXX,               XXX,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENERALS \
-&kp Q,             &kp W,             &kp E,                          &kp R,                                    &kp T,               XXX,               XXX,               XXX,               XXX,                \
-&kp A,             &kp S,             &kp D,                          &kp F,                                    &kp G,               XXX,               XXX,               XXX,               XXX,                \
-&kp Z,             &kp X,             &kp C,                          &kp V,                                    &kp B,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENERALS_NUMBERS_ALT,               &kp SPACE,           XXX,               XXX,               XXX,               U_NP,              U_NP
+&kp Q,             &kp W,             &kp E,                          &kp R,                                    &kp T,               XXX,               XXX,               XXX,               XXX,              XXX,  \
+&kp A,             &kp S,             &kp D,                          &kp F,                                    &kp G,               XXX,               XXX,               XXX,               XXX,              XXX,  \
+&kp Z,             &kp X,             &kp C,                          &kp V,                                    &kp B,               XXX,               XXX,               XXX,               XXX,              XXX, \
+U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENERALS_NUMBERS_ALT,               &kp SPACE,           XXX,               XXX,               XXX,               U_NP,             U_NP
 
 // Define DOOM alternate weapons layer (activated when k34 is held down)
 // Changes the number keys 1-5 to 6-0, keeps all other keys the same
 #define MIRYOKU_LAYER_GENERALS_LETTERS_ALT \
 &kp Y,             &kp I,             &kp O,             &kp P,           XXX,               XXX,               XXX,               XXX,               XXX                XXX,                \
-&kp H,             &kp J,             &kp K,             &kp L,           XXX,               XXX,               XXX,               XXX,               XXX,               XXX                 \
-&kp N,             &kp M,             XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX                 \
+&kp H,             &kp J,             &kp K,             &kp L,           XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                 \
+&kp N,             &kp M,             XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                 \
 U_NP,              U_NP,              XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENERALS_NUMBERS_ALT \
-&kp N7,            &kp N8,            &kp N9,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                XXX  \
-&kp N4,            &kp N5,            &kp N6,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                XXX  \
-&kp N1,            &kp N2,            &kp N3,            &kp N0,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX  \
+&kp N7,            &kp N8,            &kp N9,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
+&kp N4,            &kp N5,            &kp N6,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
+&kp N1,            &kp N2,            &kp N3,            &kp N0,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
 U_NP,              U_NP,              XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
