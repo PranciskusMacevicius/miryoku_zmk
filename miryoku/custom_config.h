@@ -30,6 +30,8 @@
 #define U_FUN         9
 #define U_DOOM       10
 #define U_DOOM_ALT   11
+#define U_GENERALS_LETTERS_ALT   12
+#define U_GENERALS_NUMBERS_ALT   13
 
 // Define custom behavior for switching to DOOM layer
 // #define u_to_U_DOOM &to U_DOOM
@@ -56,24 +58,24 @@ XXX,               &kp Q,             &kp W,             XXX,               XXX,
 U_NP,              U_NP,              &kp C,             &kp SPACE,         &none,             XXX,               XXX,               XXX,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENERALS \
-&kp N1,            &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               &kp A,             &kp S,             &kp D,             &kp F,             &kp G,               XXX,               XXX,               XXX,               XXX,                \
-&kp LSHFT,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENERALS_NUMBERS_ALT,       &mo U_DOOM_ALT,    XXX,               XXX,               XXX,               U_NP,              U_NP
+&kp ESC,           &kp Q,             &kp W,                                &kp E,                          &kp R,               &kp T,               XXX,               XXX,               XXX,               XXX,                \
+&kp LCTRL,         &kp A,             &kp S,                                &kp D,                          &kp F,               &kp G,               XXX,               XXX,               XXX,               XXX,                \
+&kp LSHFT,         &kp Z,             &kp X,                                &kp C,                          &kp V,               &kp B,               XXX,               XXX,               XXX,               XXX,                \
+U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,           &mo U_GENERALS_NUMBERS_ALT,     &kp SPACE,           XXX,                 XXX,               XXX,               U_NP,              U_NP
 
 // Define DOOM alternate weapons layer (activated when k34 is held down)
 // Changes the number keys 1-5 to 6-0, keeps all other keys the same
 #define MIRYOKU_LAYER_GENERALS_LETTERS_ALT \
-&kp N6,            &kp ,            &kp N8,            &kp N9,            &kp N0,            XXX,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               &kp Q,             &kp W,             XXX,               XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &kp C,             &kp SPACE,         &none,             XXX,               XXX,               XXX,               U_NP,              U_NP
+&kp ESC,           &kp Y,             &kp I,           &kp O,             &kp P,           XXX,               XXX,               XXX,               XXX,               XXX,                \
+&kp LCTRL,         &kp H,             &kp J,           &kp K,             &kp L,           XXX,               XXX,               XXX,               XXX,               XXX,                \
+&kp LSHFT,         &kp N,             &kp M,           XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                \
+U_NP,              U_NP,              XXX,             XXX,               XXX,             XXX,               XXX,               XXX,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENERALS_NUMBERS_ALT \
-XXX,               &kp N7,            &kp N8,            &kp N9,            &kp N0,            XXX,               XXX,               XXX,               XXX,               XXX,                \
-XXX,               &kp N4,            &kp N5,            &kp N6,            XXX,               XXX,               XXX,               XXX,               XXX,               XXX,                \
-&kp LSHFT,         &kp N1,            &kp N2,            &kp N3,            &kp F,             XXX,               XXX,               XXX,               XXX,               XXX,                \
-U_NP,              U_NP,              &kp C,             &kp SPACE,         &none,             XXX,               XXX,               XXX,               U_NP,              U_NP
+&kp ESC,           &kp N7,            &kp N8,            &kp N9,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                \
+&kp LCTRL,         &kp N4,            &kp N5,            &kp N6,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                \
+&kp LSHFT,         &kp N1,            &kp N2,            &kp N3,            &kp N0,          XXX,               XXX,               XXX,               XXX,               XXX,                \
+U_NP,              U_NP,              XXX,               XXX,               XXX,             XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
 // in the very top right position (the XXX position)
@@ -84,7 +86,7 @@ U_NP,              U_NP,              &kp C,             &kp SPACE,         &non
      N30, N31, K32, K33, K34,                          K35, K36, K37, N38, N39 \
 )\
 XXX  K00  K01  K02  K03  K04                           K05  K06  K07  K08  K09  &u_to_U_DOOM  \
-XXX  K10  K11  K12  K13  K14                           K15  K16  K17  K18  K19  XXX  \
+XXX  K10  K11  K12  K13  K14                           K15  K16  K17  K18  K19  &u_to_U_GENERALS  \
 XXX  K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX  \
                XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
 
@@ -101,7 +103,20 @@ XXX       K10  K11  K12  K13  K14                           K15  K16  K17  K18  
 XXX       K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX  \
                     XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
 
+#define MIRYOKU_LAYERMAPPING_GENERALS( \
+     K00, K01, K02, K03, K04,                          K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,                          K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,                          K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,                          K35, K36, K37, N38, N39 \
+) \
+&kp TAB   K00  K01  K02  K03  K04                           K05  K06  K07  K08  K09  &u_to_U_BASE \
+XXX       K10  K11  K12  K13  K14                           K15  K16  K17  K18  K19  XXX \
+XXX       K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX \
+                    XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
+
 #define MIRYOKU_LAYERMAPPING_DOOM_ALT MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_GENERALS_LETTERS_ALT MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_GENERALS_NUMBERS_ALT MIRYOKU_MAPPING
 
 // Add the DOOM and DOOM_ALT layers to the layer list
 #define MIRYOKU_LAYER_LIST \
@@ -116,7 +131,10 @@ MIRYOKU_X(NUM,      "Num") \
 MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
 MIRYOKU_X(DOOM,     "Doom") \
-MIRYOKU_X(DOOM_ALT, "Doom Alt")
+MIRYOKU_X(DOOM_ALT, "Doom Alt") \
+MIRYOKU_X(GENERALS, "Generals") \
+MIRYOKU_X(GENERALS_LETTERS_ALT, "Generals Letters Alt") \
+MIRYOKU_X(GENERALS_NUMBERS_ALT, "Generals Numbers Alt")
 
 // Uncomment if you prefer Inverted-T navigation layout
 // #define MIRYOKU_NAV_INVERTEDT
