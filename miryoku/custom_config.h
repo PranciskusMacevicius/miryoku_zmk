@@ -76,7 +76,7 @@ U_NP,              U_NP,              XXX,               XXX,             XXX,  
 #define MIRYOKU_LAYER_GENERALS_NUMBERS_ALT \
 &kp ESC,           &kp N7,            &kp N8,            &kp N9,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
 &kp LCTRL,         &kp N4,            &kp N5,            &kp N6,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
-&kp LSHFT,         &kp N1,            &kp N2,            &kp N3,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
+&kp LSHFT,         &kp N1,            &kp N2,            &kp N3,          &kp N0,            XXX,               XXX,               XXX,               XXX,                XXX,  \
 U_NP,              U_NP,              XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
