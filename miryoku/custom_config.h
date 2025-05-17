@@ -74,9 +74,9 @@ U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENE
 U_NP,              U_NP,              XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENERALS_NUMBERS_ALT \
-&kp N7,            &kp N8,            &kp N9,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
-&kp N4,            &kp N5,            &kp N6,            XXX,             XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
-&kp N1,            &kp N2,            &kp N3,            &kp N0,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
+&kp ESC,           &kp N7,            &kp N8,            &kp N9,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
+&kp LCTRL,         &kp N4,            &kp N5,            &kp N6,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
+&kp LSHFT,         &kp N1,            &kp N2,            &kp N3,          XXX,               XXX,               XXX,               XXX,               XXX,                XXX,  \
 U_NP,              U_NP,              XXX,               XXX,             XXX,               XXX,               XXX,               XXX,               U_NP,              U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
@@ -127,18 +127,8 @@ XXX       K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  
 &kp LSHFT K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX \
                     XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
 
-#define MIRYOKU_LAYERMAPPING_GENERALS_NUMBERS_ALT( \
-     K00, K01, K02, K03, K04,                          K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,                          K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,                          K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,                          K35, K36, K37, N38, N39 \
-) \
-&kp ESC   K00  K01  K02  K03  K04                           K05  K06  K07  K08  K09  &u_to_U_BASE \
-&kp LCTRL K10  K11  K12  K13  K14                           K15  K16  K17  K18  K19  XXX \
-&kp LSHFT K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  XXX \
-                    XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
-
 #define MIRYOKU_LAYERMAPPING_DOOM_ALT MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_GENERALS_NUMBERS_ALT MIRYOKU_MAPPING
 
 // Add the DOOM and DOOM_ALT layers to the layer list
 #define MIRYOKU_LAYER_LIST \
