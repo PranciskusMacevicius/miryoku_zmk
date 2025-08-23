@@ -87,10 +87,10 @@ U_NP,              U_NP,              XXX,               XXX,             XXX,  
 U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENERALS_NUMBERS_ALT,               &kp SPACE,           XXX,               XXX,               XXX,               U_NP,             U_NP
 
 #define MIRYOKU_LAYER_STENOGRAPHY \
+&kp N3,            &kp N3,            &kp N3,                         &kp N3,                                   &kp N3,              &kp N3,            &kp N3,            &kp N3,            &kp N3,           &kp N3, \
 &kp S,             &kp T,             &kp P,                          &kp H,                                    &kp STAR,            &kp STAR,          &kp F,             &kp P,             &kp L,            &kp T,  \
 &kp S,             &kp K,             &kp W,                          &kp R,                                    &kp STAR,            &kp STAR,          &kp R,             &kp B,             &kp G,            &kp S,  \
-XXX,               XXX,               XXX,                            XXX,                                      XXX,                 XXX,               XXX,               XXX,               XXX,              XXX, \
-U_NP,              U_NP,              &kp N3,                         &kp A,                                    &kp O,               &kp E,             &kp U,             &kp N3,            U_NP,             U_NP
+U_NP,              U_NP,              XXX,                            &kp A,                                    &kp O,               &kp E,             &kp U,             XXX,               U_NP,             U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
 // in the very top right position (the XXX position)
