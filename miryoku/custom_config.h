@@ -87,7 +87,7 @@ U_NP,              U_NP,              XXX,               XXX,             XXX,  
 U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENERALS_NUMBERS_ALT,               &kp SPACE,           XXX,               XXX,               XXX,               U_NP,             U_NP
 
 #define MIRYOKU_LAYER_STENOGRAPHY \
-&kp N3,            &kp N3,            &kp N3,                         &kp N3,                                   &kp N3,              &kp N3,            &kp N3,            &kp N3,            &kp N3,           &kp N3, \
+&kp HASH,          &kp HASH,          &kp HASH,                       &kp HASH,                                 &kp HASH,            &kp HASH,          &kp HASH,          &kp HASH,          &kp HASH,         &kp HASH, \
 &kp S,             &kp T,             &kp P,                          &kp H,                                    &kp STAR,            &kp STAR,          &kp F,             &kp P,             &kp L,            &kp T,  \
 &kp S,             &kp K,             &kp W,                          &kp R,                                    &kp STAR,            &kp STAR,          &kp R,             &kp B,             &kp G,            &kp S,  \
 U_NP,              U_NP,              &kp A,                          &kp O,                                    XXX,                 XXX,               &kp E,             &kp U,               U_NP,             U_NP
