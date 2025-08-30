@@ -90,7 +90,7 @@ U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENE
 &kp N1,            &kp N2,            &kp N3,                         &kp N4,                                   &kp N5,              &kp N6,            &kp N7,            &kp N8,            &kp N9,           &kp N0, \
 &kp Q,             &kp W,             &kp E,                          &kp R,                                    &kp T,               &kp Y,             &kp U,             &kp I,             &kp O,            &kp P,  \
 &kp A,             &kp S,             &kp D,                          &kp F,                                    &kp G,               &kp H,             &kp J,             &kp K,             &kp L,            &kp COLON,  \
-U_NP,              U_NP,              &kp C,                          &kp V,                                    XXX,                 XXX,               &kp N,             &kp M,             U_NP,             U_NP
+U_NP,              U_NP,              XXX,                            &kp C,                                    &kp V,               &kp N,             &kp M,             XXX,               U_NP,             U_NP
 
 // Modify the base layer mapping to include the switch to DOOM key
 // in the very top right position (the XXX position)
