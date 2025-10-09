@@ -91,7 +91,7 @@ U_NP,              U_NP,              &mo U_GENERALS_LETTERS_ALT,     &mo U_GENE
 &kp N1,            &kp N2,            &kp N3,                         &kp N4,                                   &kp N5,              &kp N6,            &kp N7,            &kp N8,            &kp N9,           &kp N0, \
 &kp Q,             &kp W,             &kp E,                          &kp R,                                    &kp T,               &kp Y,             &kp U,             &kp I,             &kp O,            &kp P,  \
 &kp A,             &kp S,             &kp D,                          &kp F,                                    &kp G,               &kp H,             &kp J,             &kp K,             &kp L,            &kp SEMI,  \
-U_NP,              U_NP,              &mo U_MOUSE_TWO,                    &kp C,                                    &kp V,               &kp N,             &kp M,             XXX,               U_NP,             U_NP
+U_NP,              U_NP,              &mo U_MOUSE_TWO,                &kp C,                                    &kp V,               &kp N,             &kp M,             XXX,               U_NP,             U_NP
 
 #define MIRYOKU_LAYER_MOUSE_TWO \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
