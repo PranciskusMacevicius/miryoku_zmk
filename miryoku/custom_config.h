@@ -189,7 +189,7 @@ MIRYOKU_X(DOOM_ALT, "Doom Alt") \
 MIRYOKU_X(GENERALS, "Generals") \
 MIRYOKU_X(GENERALS_LETTERS_ALT, "Generals Letters Alt") \
 MIRYOKU_X(GENERALS_NUMBERS_ALT, "Generals Numbers Alt") \
-MIRYOKU_X(STENOGRAPHY, "Stenography")
+MIRYOKU_X(STENOGRAPHY, "Stenography") \
 MIRYOKU_X(MOUSE_TWO, "Mouse Two")
 
 // Uncomment if you prefer Inverted-T navigation layout
